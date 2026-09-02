@@ -1,3 +1,5 @@
+import './home.css'
+
 const RightData = () => {
   return (
     <div className="max-w-[480px]">
@@ -5,7 +7,7 @@ const RightData = () => {
         Hi, I'm
       </p>
 
-      <h1 className="text-[5rem] font-light text-[#4a9eff] leading-none mb-4 tracking-[-1px]">
+      <h1 className="name-font text-[5rem] font-light text-[#4a9eff] leading-none mb-4 tracking-[-1px]">
         Ayush Raj
       </h1>
 

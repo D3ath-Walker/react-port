@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.name-font {
+  font-family: 'Syne', sans-serif;
+}
+
+@utility animate-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(50,130,255,0.8), 0 0 20px 6px rgba(50,130,255,0.5); }
+  50%      { box-shadow: 0 0 0 3px rgba(80,160,255,1),  0 0 30px 10px rgba(80,160,255,0.7); }
+}

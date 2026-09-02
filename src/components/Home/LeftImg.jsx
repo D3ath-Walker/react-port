@@ -1,4 +1,5 @@
 import profile from "../../assets/img/me.jpeg"
+import './home.css'
 
 const LeftImg = () => {
   return (
@@ -7,7 +8,7 @@ const LeftImg = () => {
         <img
           src={profile}
           alt="Ayush Raj"
-          className="w-95 h-95 object-cover rounded-full border-2 border-[#3a7fff] shadow-[0_0_40px_rgba(58,127,255,0.25)]"
+          className="animate-glow w-95 h-95 object-cover rounded-full border-2 border-[#3a7fff] shadow-[0_0_40px_rgba(58,127,255,0.25)]"
         />
       </div>
     </div>
