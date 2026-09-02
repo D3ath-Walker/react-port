@@ -1,9 +1,15 @@
+import { useEffect } from 'react'
 import BotLogo from '../components/BotLogo'
 import LeftImg from '../components/Home/LeftImg'
 import Navbar from '../components/Navbar'
 import RightData from '../components/Home/Rightdata'
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = "Ayush Raj | Portfolio"
+  }, [])
+
   return (
     <div className="fade relative z-10 min-h-screen text-white">
       <main className="min-h-screen flex flex-col justify-center pt-28 pb-10">
