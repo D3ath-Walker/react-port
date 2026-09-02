@@ -31,6 +31,13 @@ body::after {
   z-index: 0;
 }
 
+.name-font {
+  font-family: 'Syne', sans-serif;
+}
+
+.fade {
+  animation: fadeIn 0.5s ease;
+}
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }

@@ -37,8 +37,7 @@ const BotLogo = () => {
 ]
 
   return (
-    <div className="flex items-center justify-center gap-5 pt-40">
-
+    <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center justify-center gap-5 bg-[rgba(10,25,60,0.6)] border border-[rgba(50,120,255,0.2)] rounded-full px-8 py-3 backdrop-blur-md">
       {socials.map((social, index) => (
         <div key={index} className="flex items-center gap-5">
 

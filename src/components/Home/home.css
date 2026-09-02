@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-.name-font {
-  font-family: 'Syne', sans-serif;
-}
-
 @utility animate-glow {
   animation: pulseGlow 3s ease-in-out infinite;
 }

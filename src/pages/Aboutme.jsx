@@ -9,19 +9,16 @@ import BotLogo from '../components/BotLogo'
 
 const Aboutme = () => {
   return (
-    <div>
-        <Navbar />
-
-        <main className="min-h-screen flex flex-col justify-center pt-28 pb-10">
-            <div className="w-full max-w-[1200px] mx-auto px-8 grid grid-cols-2 items-center gap-16">
-               <AM />
-               <Skills />
-               <Education />
-               <Certifications />
-               <Hobbies />
-            </div>
-
-            <BotLogo />
+    <div className= "fade">
+        <main className="min-h-screen flex flex-col items-center pt-28 pb-24">
+            <h1 className="name-font text-4xl font-light text-[#e0eaf5] w-full max-w-[820px] px-8 mb-2">
+            About <span className="text-[#4a9eff]">Me</span>
+            </h1>
+            <AM />
+            <Skills />
+            <Education />
+            <Certifications />
+            <Hobbies />
         </main>
     </div>
   )

@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-.page-title {
-  font-family: 'Syne', sans-serif;
-}
-
 .timeline-item:not(:last-child)::before {
   content: '';
   position: absolute;
