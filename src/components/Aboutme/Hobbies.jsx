@@ -1,5 +1,5 @@
 import { FaGamepad } from "react-icons/fa"
-import GlassBox from "./GlassBox"
+import GlassBox from "../GlassBox"
 
 const Hobbies = () => {
   const hobbies = [

@@ -5,6 +5,8 @@ import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import Aboutme from './pages/Aboutme'
 import NotFound from './pages/NotFound'
+import Experience from './pages/Experience'
+
 
 const App = () => (
   <BrowserRouter>
@@ -13,6 +15,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<Aboutme />} />
+      <Route path="/experience" element={<Experience />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
     <BotLogo />

@@ -1,5 +1,5 @@
 import { FaUser } from "react-icons/fa"
-import GlassBox from "./GlassBox"
+import GlassBox from "../GlassBox"
 
 const AM = () => (
   <GlassBox icon={<FaUser />} title="Introduction">

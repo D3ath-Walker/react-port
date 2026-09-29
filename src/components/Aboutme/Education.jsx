@@ -1,5 +1,5 @@
 import { FaGraduationCap } from "react-icons/fa"
-import GlassBox from "./GlassBox"
+import GlassBox from "../GlassBox"
 import './AM.css'
 
 const Education = () => {

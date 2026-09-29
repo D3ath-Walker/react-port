@@ -1,6 +1,6 @@
 import { FaCertificate, FaAward, FaRobot, FaCode } from "react-icons/fa"
 import { FaLetterboxd } from "react-icons/fa6"
-import GlassBox from "./GlassBox"
+import GlassBox from "../GlassBox"
 
 const Certifications = () => {
   const certs = [

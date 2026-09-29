@@ -1,5 +1,5 @@
 import { FaCode } from "react-icons/fa"
-import GlassBox from "./GlassBox"
+import GlassBox from "../GlassBox"
 
 const Skills = () => {
   const categories = [
